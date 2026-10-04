@@ -71,15 +71,15 @@
         </td>
       </tr>
       <tr>
-        <td style="background: rgba(88, 101, 242, 0.15); border: 1px solid #5865F2; border-radius: 8px; padding: 12px 15px;">
-          <a href="#" style="text-decoration: none; color: #ffffff !important; display: flex; align-items: center; gap: 10px;">
-            <span style="font-size: 22px;"></span>
-            <span>
-              <span style="color: #5865F2 !important; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;">Discord</span><br>
-              <span style="color: #ffffff !important;">0sunshine0</span>
-            </span>
-          </a>
-        </td>
+<td style="background: rgba(88, 101, 242, 0.15); border: 1px solid #5865F2; border-radius: 8px; padding: 12px 15px;">
+  <div style="color: #ffffff !important; display: flex; align-items: center; gap: 10px;">
+    <span style="font-size: 22px;">🎮</span>
+    <span>
+      <span style="color: #5865F2 !important; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;">Discord</span><br>
+      <span style="color: #ffffff !important;">0sunshine0</span>
+    </span>
+  </div>
+</td>
       </tr>
       <tr>
         <td style="background: rgba(255, 255, 255, 0.08); border: 1px solid #888; border-radius: 8px; padding: 12px 15px;">
