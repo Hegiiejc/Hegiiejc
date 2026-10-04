@@ -4,9 +4,11 @@
   <img src="./banner.png" width="100%" style="border-radius: 10px; opacity: 0.9; margin-bottom: 20px;" alt="Sakura Garden Banner"/>
 
 </div>  
-    <!-- Контент поверх фона -->
-    <div style="position: absolute; top: 0; left: 0; right: 0; padding: 30px; color: #f0e0e5; font-family: 'Segoe UI', sans-serif;">      
-      <h1 style="color: #ffd700 !important; text-shadow: 0 0 10px #ffd700; margin-top: 0;">⚔️ Hegiiejc ️</h1>
+
+<!-- Основной контейнер профиля -->
+<div style="position: relative; width: 100%; background-color: transparent;">
+    <div style="padding: 30px; color: #f0e0e5; font-family: 'Segoe UI', sans-serif;">      
+      <h1 style="color: #ffd700 !important; text-shadow: 0 0 10px #ffd700; margin-top: 0;">⚔️ Hegiiejc ⚔️</h1>
       <p style="font-style: italic; color: #ffb7c5 !important; margin-bottom: 20px;">「 Сделано с любовью и кофеином 」</p>      
       <hr style="border-color: #ffd700; opacity: 0.3;"/>
       <h3 style="color: #ffd700 !important; margin-top: 30px;">◈ SKILLS & TOOLS ◈</h3>
@@ -42,7 +44,7 @@
       </table>
       <div style="background: rgba(0, 0, 0, 0.5); border: 1px solid #ffd700; border-radius: 10px; padding: 20px; margin-top: 30px;">
         <h3 style="color: #ffd700 !important; margin-top: 0;">Как со мной связаться!</h3>
-        <p style="color: #ffb7c5 !important; font-size: 13px; margin-bottom: 20px;">Reach out through any of these channels.</p>        
+        <p style="color: #ffb7c5 !important; font-size: 13px; margin-bottom: 20px;">Смотри ниже!</p>        
         <table style="width: 100%; border-collapse: separate; border-spacing: 0 10px;">
           <tr>
             <td style="background: rgba(123, 47, 247, 0.15); border: 1px solid #7b2ff7; border-radius: 8px; padding: 12px 15px;">
@@ -67,19 +69,21 @@
             </td>
           </tr>
           <tr>
-             <!-- Discord (НОВЫЙ) -->
-    <tr>
-      <td style="background: rgba(88, 101, 242, 0.15); border: 1px solid #5865F2; border-radius: 8px; padding: 12px 15px;">
-        <a href="#" style="text-decoration: none; color: #ffffff !important; display: flex; align-items: center; gap: 10px;">
-          <span style="font-size: 22px;">🎮</span>
-          <span>
-            <span style="color: #5865F2 !important; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;">Discord</span><br>
-            <span style="color: #ffffff !important;">0sunshine0</span>
-          </span>
-        </a>
-      </td>
-    </tr>
-            <td style="background: rgba(255, 255, 255, 0.08); border: 1px solid #888; border-radius: 8px; padding: 12px 15px;">
+             <!-- Discord -->
+             <tr>
+              <td style="background: rgba(88, 101, 242, 0.15); border: 1px solid #5865F2; border-radius: 8px; padding: 12px 15px;">
+                <a href="#" style="text-decoration: none; color: #ffffff !important; display: flex; align-items: center; gap: 10px;">
+                  <span style="font-size: 22px;">🎮</span>
+                  <span>
+                    <span style="color: #5865F2 !important; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;">Discord</span><br>
+                    <span style="color: #ffffff !important;">0sunshine0</span>
+                  </span>
+                </a>
+              </td>
+            </tr>
+            <!-- GitHub -->
+            <tr>
+             <td style="background: rgba(255, 255, 255, 0.08); border: 1px solid #888; border-radius: 8px; padding: 12px 15px;">
               <a href="https://github.com/Hegiiejc" style="text-decoration: none; color: #ffffff !important; display: flex; align-items: center; gap: 10px;">
                 <span style="font-size: 22px;">🦄</span>
                 <span>
@@ -92,70 +96,43 @@
         </table>
       </div>
       <br/>
-      <!-- PACMAN ANIMATION START -->
-      <div align="center" style="margin-top: 40px; margin-bottom: 20px;">
-        <svg width="100%" height="50" viewBox="0 0 800 50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-          <!-- Dots (точки для поедания) -->
-          <circle cx="50" cy="25" r="4" fill="#ffd700" opacity="0.8">
-            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/>
-          </circle>
-          <circle cx="100" cy="25" r="4" fill="#ffd700" opacity="0.8">
-            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.2s" repeatCount="indefinite"/>
-          </circle>
-          <circle cx="150" cy="25" r="4" fill="#ffd700" opacity="0.8">
-            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.4s" repeatCount="indefinite"/>
-          </circle>
-          <circle cx="200" cy="25" r="4" fill="#ffd700" opacity="0.8">
-            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.6s" repeatCount="indefinite"/>
-          </circle>
-          <circle cx="250" cy="25" r="4" fill="#ffd700" opacity="0.8">
-            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.8s" repeatCount="indefinite"/>
-          </circle>          
-          <!-- Pacman с анимацией рта -->
-          <g transform="translate(400, 25)">
-            <!-- Верхняя челюсть -->
-            <path d="M0,0 L25,-20 A25,25 0 0,1 25,20 Z" fill="#ffd700">
-              <animateTransform 
-                attributeName="transform" 
-                type="rotate" 
-                values="0 0 0; 40 0 0; 0 0 0" 
-                dur="0.6s" 
-                repeatCount="indefinite"/>
-            </path>
-            <!-- Нижняя челюсть -->
-            <path d="M0,0 L25,20 A25,25 0 0,0 25,-20 Z" fill="#ffd700">
-              <animateTransform 
-                attributeName="transform" 
-                type="rotate" 
-                values="0 0 0; -40 0 0; 0 0 0" 
-                dur="0.6s" 
-                repeatCount="indefinite"/>
-            </path>
-            <!-- Глаз -->
-            <circle cx="8" cy="-12" r="3" fill="#1a1a1a"/>
-          </g>          
-          <!-- Больше точек справа -->
-          <circle cx="500" cy="25" r="4" fill="#ffd700" opacity="0.8">
-            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/>
-          </circle>
-          <circle cx="550" cy="25" r="4" fill="#ffd700" opacity="0.8">
-            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.2s" repeatCount="indefinite"/>
-          </circle>
-          <circle cx="600" cy="25" r="4" fill="#ffd700" opacity="0.8">
-            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.4s" repeatCount="indefinite"/>
-          </circle>
-          <circle cx="650" cy="25" r="4" fill="#ffd700" opacity="0.8">
-            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.6s" repeatCount="indefinite"/>
-          </circle>
-          <circle cx="700" cy="25" r="4" fill="#ffd700" opacity="0.8">
-            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.8s" repeatCount="indefinite"/>
-          </circle>
-          <circle cx="750" cy="25" r="4" fill="#ffd700" opacity="0.8">
-            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3s" repeatCount="indefinite"/>
-          </circle>
-        </svg>
-      </div>
-      <!-- PACMAN ANIMATION END -->  
     </div>
-  </div>
+</div>
+
+<!-- PACMAN SECTION (ВЫНЕСЕН ОТДЕЛЬНО ВНИЗУ) -->
+<div align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <!-- Используем простую SVG анимацию, которая лучше работает на GitHub -->
+  <svg width="300" height="50" viewBox="0 0 300 50" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <style>
+        .mouth { animation: chomp 0.5s infinite alternate; transform-origin: 25px 25px; }
+        @keyframes chomp {
+          0% { d: path("M25,25 L50,25 A25,25 0 1,1 50,25 Z"); } /* Рот закрыт (примерно) */
+          100% { d: path("M25,25 L50,10 A25,25 0 1,1 50,40 Z"); } /* Рот открыт */
+        }
+        /* Примечание: анимация path может не работать везде, поэтому ниже запасной вариант с rotate */
+      </style>
+    </defs>   
+    <!-- Точки -->
+    <circle cx="20" cy="25" r="4" fill="#ffd700" />
+    <circle cx="40" cy="25" r="4" fill="#ffd700" />
+    <circle cx="60" cy="25" r="4" fill="#ffd700" />    
+    <!-- Пакман (вариант с вращением секторов - самый надежный для GitHub) -->
+    <g transform="translate(100, 25)">
+       <!-- Верхняя часть -->
+       <path d="M0,0 L20,-20 A20,20 0 0,1 20,20 Z" fill="#ffd700">
+         <animateTransform attributeName="transform" type="rotate" from="-20 0 0" to="20 0 0" dur="0.2s" repeatCount="indefinite" additive="sum"/>
+       </path>
+       <!-- Нижняя часть -->
+       <path d="M0,0 L20,20 A20,20 0 0,0 20,-20 Z" fill="#ffd700">
+          <animateTransform attributeName="transform" type="rotate" from="20 0 0" to="-20 0 0" dur="0.2s" repeatCount="indefinite" additive="sum"/>
+       </path>
+       <!-- Глаз -->
+       <circle cx="10" cy="-10" r="2" fill="black" />
+    </g>
+    <!-- Еще точки -->
+    <circle cx="160" cy="25" r="4" fill="#ffd700" />
+    <circle cx="180" cy="25" r="4" fill="#ffd700" />
+    <circle cx="200" cy="25" r="4" fill="#ffd700" />
+  </svg>
 </div>
