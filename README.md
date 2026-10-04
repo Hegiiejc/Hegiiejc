@@ -3,9 +3,6 @@
   <!-- Banner Image -->
   <img src="./banner.png" width="100%" style="border-radius: 10px; opacity: 0.9; margin-bottom: 20px;" alt="Sakura Garden Banner"/>
 
-  <!-- SVG карточка с бордовым фоном и всем контентом -->
-  <img src="./profile-card.svg" width="100%" alt="Profile Card"/>
-  
 </div>  
     <!-- Контент поверх фона -->
     <div style="position: absolute; top: 0; left: 0; right: 0; padding: 30px; color: #f0e0e5; font-family: 'Segoe UI', sans-serif;">      
