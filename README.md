@@ -4,14 +4,12 @@
   <img src="./banner.png" width="100%" style="border-radius: 10px; opacity: 0.9; margin-bottom: 20px;" alt="Sakura Garden Banner"/>
 
 </div>  
-
-<!-- Основной контейнер профиля -->
-<div style="position: relative; width: 100%; background-color: transparent;">
-    <div style="padding: 30px; color: #f0e0e5; font-family: 'Segoe UI', sans-serif;">      
+    <!-- Контент поверх фона -->
+    <div style="position: absolute; top: 0; left: 0; right: 0; padding: 30px; color: #f0e0e5; font-family: 'Segoe UI', sans-serif;">      
       <h1 style="color: #ffd700 !important; text-shadow: 0 0 10px #ffd700; margin-top: 0;">⚔️ Hegiiejc ⚔️</h1>
       <p style="font-style: italic; color: #ffb7c5 !important; margin-bottom: 20px;">「 Сделано с любовью и кофеином 」</p>      
       <hr style="border-color: #ffd700; opacity: 0.3;"/>
-      <h3 style="color: #ffd700 !important; margin-top: 30px;">◈ SKILLS & TOOLS ◈</h3>
+      <h3 style="color: #ffd700 !important; margin-top: 30px;">◈ SKILLS & TOOLS </h3>
       <p>
         <img src="https://img.shields.io/badge/React-S_Rank-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
         <img src="https://img.shields.io/badge/TypeScript-S_Rank-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TS"/>
@@ -69,21 +67,18 @@
             </td>
           </tr>
           <tr>
-             <!-- Discord -->
-             <tr>
-              <td style="background: rgba(88, 101, 242, 0.15); border: 1px solid #5865F2; border-radius: 8px; padding: 12px 15px;">
-                <a href="#" style="text-decoration: none; color: #ffffff !important; display: flex; align-items: center; gap: 10px;">
-                  <span style="font-size: 22px;">🎮</span>
-                  <span>
-                    <span style="color: #5865F2 !important; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;">Discord</span><br>
-                    <span style="color: #ffffff !important;">0sunshine0</span>
-                  </span>
-                </a>
-              </td>
-            </tr>
-            <!-- GitHub -->
-            <tr>
-             <td style="background: rgba(255, 255, 255, 0.08); border: 1px solid #888; border-radius: 8px; padding: 12px 15px;">
+            <td style="background: rgba(88, 101, 242, 0.15); border: 1px solid #5865F2; border-radius: 8px; padding: 12px 15px;">
+              <a href="#" style="text-decoration: none; color: #ffffff !important; display: flex; align-items: center; gap: 10px;">
+                <span style="font-size: 22px;">🎮</span>
+                <span>
+                  <span style="color: #5865F2 !important; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;">Discord</span><br>
+                  <span style="color: #ffffff !important;">0sunshine0</span>
+                </span>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td style="background: rgba(255, 255, 255, 0.08); border: 1px solid #888; border-radius: 8px; padding: 12px 15px;">
               <a href="https://github.com/Hegiiejc" style="text-decoration: none; color: #ffffff !important; display: flex; align-items: center; gap: 10px;">
                 <span style="font-size: 22px;">🦄</span>
                 <span>
@@ -97,42 +92,22 @@
       </div>
       <br/>
     </div>
+  </div>
 </div>
 
-<!-- PACMAN SECTION (ВЫНЕСЕН ОТДЕЛЬНО ВНИЗУ) -->
-<div align="center" style="margin-top: 20px; margin-bottom: 20px;">
-  <!-- Используем простую SVG анимацию, которая лучше работает на GitHub -->
-  <svg width="300" height="50" viewBox="0 0 300 50" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <style>
-        .mouth { animation: chomp 0.5s infinite alternate; transform-origin: 25px 25px; }
-        @keyframes chomp {
-          0% { d: path("M25,25 L50,25 A25,25 0 1,1 50,25 Z"); } /* Рот закрыт (примерно) */
-          100% { d: path("M25,25 L50,10 A25,25 0 1,1 50,40 Z"); } /* Рот открыт */
-        }
-        /* Примечание: анимация path может не работать везде, поэтому ниже запасной вариант с rotate */
-      </style>
-    </defs>   
-    <!-- Точки -->
-    <circle cx="20" cy="25" r="4" fill="#ffd700" />
-    <circle cx="40" cy="25" r="4" fill="#ffd700" />
-    <circle cx="60" cy="25" r="4" fill="#ffd700" />    
-    <!-- Пакман (вариант с вращением секторов - самый надежный для GitHub) -->
-    <g transform="translate(100, 25)">
-       <!-- Верхняя часть -->
-       <path d="M0,0 L20,-20 A20,20 0 0,1 20,20 Z" fill="#ffd700">
-         <animateTransform attributeName="transform" type="rotate" from="-20 0 0" to="20 0 0" dur="0.2s" repeatCount="indefinite" additive="sum"/>
-       </path>
-       <!-- Нижняя часть -->
-       <path d="M0,0 L20,20 A20,20 0 0,0 20,-20 Z" fill="#ffd700">
-          <animateTransform attributeName="transform" type="rotate" from="20 0 0" to="-20 0 0" dur="0.2s" repeatCount="indefinite" additive="sum"/>
-       </path>
-       <!-- Глаз -->
-       <circle cx="10" cy="-10" r="2" fill="black" />
-    </g>
-    <!-- Еще точки -->
-    <circle cx="160" cy="25" r="4" fill="#ffd700" />
-    <circle cx="180" cy="25" r="4" fill="#ffd700" />
-    <circle cx="200" cy="25" r="4" fill="#ffd700" />
-  </svg>
+<!-- 🎮 PACMAN GIF  -->
+<div align="center" style="margin-top: 30px; margin-bottom: 20px;">
+  <p style="color: #ffd700; font-family: 'Courier New', monospace; font-size: 14px; letter-spacing: 2px;">
+    ▶ PRESS START TO PLAY ◀
+  </p>
+  
+  <!-- ВАРИАНТ 1: Если загрузил картинку в репозиторий -->
+  <img src="./pacman.gif" width="100%" style="max-width: 400px; border-radius: 10px; border: 2px solid #ffd700; box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);" alt="Pac-Man Game"/>
+  
+  <!-- ВАРИАНТ 2: Готовая GIF из интернета (раскомментируй, если нужно) -->
+  <!-- <img src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" width="100%" style="max-width: 400px; border-radius: 10px; border: 2px solid #ffd700;" alt="Pac-Man"/> -->
+</div>
+
+<div align="center">
+  <sub style="color: #888;">© 2026 Hegiiejc | Game Over? Never.</sub>
 </div>
