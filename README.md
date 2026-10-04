@@ -2,7 +2,7 @@
 
 Добро пожаловать на мой GitHub Pages сайт!
 
-🔗 **Посетить сайт:** [hegiiejc.github.io](https://hegiiejc.github.io/)
+🔗 **Посетить сайт:** [hegiiejc.github.io](https://github.com/Hegiiejc)
 
 ## О проекте
 
