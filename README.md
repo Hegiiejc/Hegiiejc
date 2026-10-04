@@ -67,9 +67,21 @@
             </td>
           </tr>
           <tr>
+             <!-- Discord (НОВЫЙ) -->
+    <tr>
+      <td style="background: rgba(88, 101, 242, 0.15); border: 1px solid #5865F2; border-radius: 8px; padding: 12px 15px;">
+        <a href="#" style="text-decoration: none; color: #ffffff !important; display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 22px;">🎮</span>
+          <span>
+            <span style="color: #5865F2 !important; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;">Discord</span><br>
+            <span style="color: #ffffff !important;">0sunshine0</span>
+          </span>
+        </a>
+      </td>
+    </tr>
             <td style="background: rgba(255, 255, 255, 0.08); border: 1px solid #888; border-radius: 8px; padding: 12px 15px;">
               <a href="https://github.com/Hegiiejc" style="text-decoration: none; color: #ffffff !important; display: flex; align-items: center; gap: 10px;">
-                <span style="font-size: 22px;"></span>
+                <span style="font-size: 22px;">🦄</span>
                 <span>
                   <span style="color: #cccccc !important; font-size: 11px;">GitHub</span><br>
                   <span style="color: #ffffff !important;">@Hegiiejc</span>
@@ -80,8 +92,70 @@
         </table>
       </div>
       <br/>
-      <p style="font-style: italic; color: #ffb7c5 !important; margin-top: 20px;">「 The system has chosen me 」</p>
-      <sub style="color: #888 !important;">© 2026 Hegiiejc | Arise</sub>
+      <!-- PACMAN ANIMATION START -->
+      <div align="center" style="margin-top: 40px; margin-bottom: 20px;">
+        <svg width="100%" height="50" viewBox="0 0 800 50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+          <!-- Dots (точки для поедания) -->
+          <circle cx="50" cy="25" r="4" fill="#ffd700" opacity="0.8">
+            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="100" cy="25" r="4" fill="#ffd700" opacity="0.8">
+            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="150" cy="25" r="4" fill="#ffd700" opacity="0.8">
+            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.4s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="200" cy="25" r="4" fill="#ffd700" opacity="0.8">
+            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.6s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="250" cy="25" r="4" fill="#ffd700" opacity="0.8">
+            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.8s" repeatCount="indefinite"/>
+          </circle>          
+          <!-- Pacman с анимацией рта -->
+          <g transform="translate(400, 25)">
+            <!-- Верхняя челюсть -->
+            <path d="M0,0 L25,-20 A25,25 0 0,1 25,20 Z" fill="#ffd700">
+              <animateTransform 
+                attributeName="transform" 
+                type="rotate" 
+                values="0 0 0; 40 0 0; 0 0 0" 
+                dur="0.6s" 
+                repeatCount="indefinite"/>
+            </path>
+            <!-- Нижняя челюсть -->
+            <path d="M0,0 L25,20 A25,25 0 0,0 25,-20 Z" fill="#ffd700">
+              <animateTransform 
+                attributeName="transform" 
+                type="rotate" 
+                values="0 0 0; -40 0 0; 0 0 0" 
+                dur="0.6s" 
+                repeatCount="indefinite"/>
+            </path>
+            <!-- Глаз -->
+            <circle cx="8" cy="-12" r="3" fill="#1a1a1a"/>
+          </g>          
+          <!-- Больше точек справа -->
+          <circle cx="500" cy="25" r="4" fill="#ffd700" opacity="0.8">
+            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="550" cy="25" r="4" fill="#ffd700" opacity="0.8">
+            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="600" cy="25" r="4" fill="#ffd700" opacity="0.8">
+            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.4s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="650" cy="25" r="4" fill="#ffd700" opacity="0.8">
+            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.6s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="700" cy="25" r="4" fill="#ffd700" opacity="0.8">
+            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.8s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="750" cy="25" r="4" fill="#ffd700" opacity="0.8">
+            <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3s" repeatCount="indefinite"/>
+          </circle>
+        </svg>
+      </div>
+      <!-- PACMAN ANIMATION END -->  
     </div>
   </div>
 </div>
