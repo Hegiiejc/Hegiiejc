@@ -102,7 +102,7 @@
   </p>
   
   <!-- ВАРИАНТ 1: Если загрузил картинку в репозиторий -->
-  <img src="./pacman.gif" width="100%" style="max-width: 400px; border-radius: 10px; border: 2px solid #ffd700; box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);" alt="Pac-Man Game"/>
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3h5MHVqODZnYzY2cWpjeDhoZHRoNnZsZ29xMWl0Z3ZweDdyN3d3cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cyMqOH8rjgDHG/giphy.gif"/>
   
   <!-- ВАРИАНТ 2: Готовая GIF из интернета (раскомментируй, если нужно) -->
   <!-- <img src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" width="100%" style="max-width: 400px; border-radius: 10px; border: 2px solid #ffd700;" alt="Pac-Man"/> -->
