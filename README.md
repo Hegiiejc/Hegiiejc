@@ -1,7 +1,7 @@
 <div align="center">
   
   <!-- Banner Image -->
-  <img src="https://image.qwenlm.ai/generated-images/32b7fdd0-0a1d-4c29-af73-8ebeeb18150e/_result.png" width="100%" style="border-radius: 10px; opacity: 0.9; margin-bottom: 20px;" alt="Sakura Garden Banner"/>
+ <img src="./banner.png" width="100%" style="border-radius: 10px; opacity: 0.9; margin-bottom: 20px;" alt="Sakura Garden Banner"/>
 
   <!-- Основной контейнер с бордовым фоном -->
   <div style="background: linear-gradient(135deg, #4a0012 0%, #2d0010 100%); border: 2px solid #ffd700; border-radius: 15px; padding: 30px; max-width: 700px; margin: 0 auto; color: #f0e0e5; font-family: 'Segoe UI', sans-serif; box-shadow: 0 0 20px rgba(128, 0, 32, 0.6);">
